@@ -1,0 +1,22 @@
+{
+  "name": "@eladrin201/option-picker",
+  "version": "1.0.1",
+  "description": "A simple option picker for node",
+  "main": "option-picker.js",
+  "bin" : { "option-picker" : "./option-picker.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/eladrin201/option-picker"
+  },
+  "author": "eladrin201",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
