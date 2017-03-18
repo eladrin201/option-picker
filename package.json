@@ -1,6 +1,6 @@
 {
   "name": "@eladrin201/option-picker",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A simple option picker for node",
   "main": "option-picker.js",
   "bin" : { "option-picker" : "./option-picker.js" },

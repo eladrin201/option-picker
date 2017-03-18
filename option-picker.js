@@ -17,7 +17,9 @@ function randomizeChoice(arr) {
   prompt.get({
     description: 'Are you happy with this choice? (Y/n)',
     name: 'done',
-    type: 'string'
+    type: 'string',
+    pattern: /([yn]|[YN])/g,
+    message: 'Need a Y(es) or N(o), please'
   }, function(err, result) {
     if (result.done === 'Y' || result.done === 'y') {
       process.exit(0);
